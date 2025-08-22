@@ -1,18 +1,27 @@
-body{
+body {
     font-family: poppins;
     font-weight: 600;
-    background-image: url(bg1.jpg);
-    background-size: cover;
-    
-    
 }
-li:hover{
+
+.firstcontainer {
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    background-position: center;
+}
+
+li:hover {
     color: #d3a971;
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 4px;
     transition: 150ms ease-in;
 }
-.main{
+
+.main {
     border-bottom-width: 1px;
     border-bottom-color: #d1d1d14d;
+}
+
+.btn {
+    background-color: #d3a971;
 }
