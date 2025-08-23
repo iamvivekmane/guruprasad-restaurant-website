@@ -1,14 +1,44 @@
 body {
     font-family: poppins;
-    font-weight: 600;
 }
-
 .firstcontainer {
-    background-image: url(bg2.jpg);
+    background-image: url(bg1.jpg);
     background-size: cover;
-    filter: brightness(80%);
     background-position: center;
 }
+
+.welcome {
+    color: #d3a971;
+}
+
+.secondcontainer {
+    font-family: poppins;
+    font-weight: 400;
+}
+
+.thirdcontainer {
+    font-family: poppins;
+    font-weight: 400;
+    background-image: url(bg2.jpg);
+    background-attachment: fixed;
+}
+
+.fourthcontainer {
+    font-family: poppins;
+    font-weight: 400;
+}
+
+.fourthcontainer .heading {
+    color: #d3a971;
+}
+.seventhcontainer .heading {
+    color: #d3a971;
+}
+
+.secondcontainer img {
+    transition: 200ms ease;
+}
+
 
 li:hover {
     color: #d3a971;
@@ -24,4 +54,74 @@ li:hover {
 
 .btn {
     background-color: #d3a971;
+}
+
+.sixthcontainer{
+    background-image: url(testi.jpg);
+    /* background-position: center; */
+    background-size: cover;
+}
+.sixthcontainer .heading{
+    color: #d3a971;
+}
+.card
+{
+    border: 1px #d3a971;
+    border-style: double;
+}
+.message{
+    font-family: poppins;
+    font-weight: 400;
+}
+.thirdline:hover{
+    background-color: #d3a971;
+     transition: 300ms ease;
+}
+.p1{
+    padding: 10px;
+}
+.p1::placeholder{
+    color:gray;
+    /* padding-left: 10px; */
+    font-family: poppins;
+    font-weight: 400;
+}
+
+.seventhcontainer{
+    font-family: poppins;
+    font-weight: 400;
+}
+.eightcontainer{
+    font-family: poppins;
+    font-weight: 400;
+}
+.ninethcontainer{
+    font-family: poppins;
+    font-weight: 400;
+}
+.p1:focus{
+    outline: #d3a971;
+    border-color: #d3a971;
+}
+.p2:focus{
+    outline: #d3a971;
+    border-color: #d3a971;
+}
+.form {
+    border-color: #d3a971;
+}
+.order{
+    color: #d3a971;
+}
+.ninethcontainer .description{
+    font-family: poppins;
+    color: gray;
+}
+
+.ninethcontainer{
+    background-color: #222222;
+}
+.tenthcontainer
+{
+    background-color: #1b1b1b;
 }
