@@ -330,6 +330,9 @@
   .h-50 {
     height: calc(var(--spacing) * 50);
   }
+  .h-60 {
+    height: calc(var(--spacing) * 60);
+  }
   .h-80 {
     height: calc(var(--spacing) * 80);
   }
@@ -479,6 +482,9 @@
   }
   .w-190 {
     width: calc(var(--spacing) * 190);
+  }
+  .w-200 {
+    width: calc(var(--spacing) * 200);
   }
   .w-\[70vh\] {
     width: 70vh;
@@ -792,6 +798,15 @@
   }
   .pl-30 {
     padding-left: calc(var(--spacing) * 30);
+  }
+  .pl-35 {
+    padding-left: calc(var(--spacing) * 35);
+  }
+  .pl-40 {
+    padding-left: calc(var(--spacing) * 40);
+  }
+  .pl-45 {
+    padding-left: calc(var(--spacing) * 45);
   }
   .pl-50 {
     padding-left: calc(var(--spacing) * 50);
