@@ -1,14 +1,17 @@
 body {
     font-family: poppins;
 }
+
 .firstcontainer {
     background-image: url(bg1.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .welcome {
     color: #d3a971;
 }
+
 .secondcontainer {
     font-family: poppins;
     font-weight: 400;
@@ -29,6 +32,7 @@ body {
 .fourthcontainer .heading {
     color: #d3a971;
 }
+
 .seventhcontainer .heading {
     color: #d3a971;
 }
@@ -54,72 +58,196 @@ li:hover {
     background-color: #d3a971;
 }
 
-.sixthcontainer{
+.sixthcontainer {
     background-image: url(testi.jpg);
     /* background-position: center; */
     background-size: cover;
 }
-.sixthcontainer .heading{
+
+.sixthcontainer .heading {
     color: #d3a971;
 }
-.card
-{
+
+.card {
     border: 1px #d3a971;
     border-style: double;
 }
-.message{
+
+.message {
     font-family: poppins;
     font-weight: 400;
 }
-.thirdline:hover{
+
+.thirdline:hover {
     background-color: #d3a971;
-     transition: 300ms ease;
+    transition: 300ms ease;
 }
-.p1{
+
+.p1 {
     padding: 10px;
 }
-.p1::placeholder{
-    color:gray;
+
+.p1::placeholder {
+    color: gray;
     /* padding-left: 10px; */
     font-family: poppins;
     font-weight: 400;
 }
 
-.seventhcontainer{
+.seventhcontainer {
     font-family: poppins;
     font-weight: 400;
 }
-.eightcontainer{
+
+.eightcontainer {
     font-family: poppins;
     font-weight: 400;
 }
-.ninethcontainer{
+
+.ninethcontainer {
     font-family: poppins;
     font-weight: 400;
 }
-.p1:focus{
+
+.p1:focus {
     outline: #d3a971;
     border-color: #d3a971;
 }
-.p2:focus{
+
+.p2:focus {
     outline: #d3a971;
     border-color: #d3a971;
 }
+
 .form {
     border-color: #d3a971;
 }
-.order{
+
+.order {
     color: #d3a971;
 }
-.ninethcontainer .description{
+
+.ninethcontainer .description {
     font-family: poppins;
     color: gray;
 }
 
-.ninethcontainer{
+.ninethcontainer {
     background-color: #222222;
 }
-.tenthcontainer
-{
+
+.tenthcontainer {
     background-color: #1b1b1b;
+}
+
+.poppinsbold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+}
+.poppins3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(155, 155, 155);
+}
+.poppins4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: rgb(40,40,40);
+}
+
+.poppinsnormalgray {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(155, 155, 155);
+
+}
+
+.poppinsnormalgold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(211, 169, 113);
+}
+
+.poppinsheading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(249, 249, 249);
+}
+.poppins2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.poppinsbtn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 48px;
+}
+
+.libre {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.libre2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+    color: rgb(40,40,40);
+}
+.libre3 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+}
+.libre4 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:26px;
+    color: rgb(255, 255, 255);
+}
+.libre5 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .dineImage img{
+    width: 100%;
+
+  }
+  .dscc{
+    background-color: black;
+  }
 }
