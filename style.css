@@ -241,13 +241,3 @@ li:hover {
     color: rgb(255, 255, 255);
 }
 
-@media only screen and (max-width: 1024px) {
-
-  .dineImage img{
-    width: 100%;
-
-  }
-  .dscc{
-    background-color: black;
-  }
-}
