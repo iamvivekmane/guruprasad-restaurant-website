@@ -209,11 +209,19 @@ li:hover {
     line-height: 48px;
 }
 
+
 .libre {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.libre_1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
     color: rgb(255, 255, 255);
 }
 
@@ -250,3 +258,20 @@ li:hover {
 }
 
 
+@media screen and (max-width: 640px) {
+    .custom1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(249, 249, 249);
+}
+  .custom2{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+  }
+}
