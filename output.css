@@ -232,6 +232,9 @@
       max-width: 96rem;
     }
   }
+  .m-0 {
+    margin: calc(var(--spacing) * 0);
+  }
   .mx-35 {
     margin-inline: calc(var(--spacing) * 35);
   }
@@ -255,6 +258,9 @@
   }
   .hidden {
     display: none;
+  }
+  .inline-block {
+    display: inline-block;
   }
   .table {
     display: table;
@@ -789,6 +795,11 @@
       margin-inline: calc(var(--spacing) * 20);
     }
   }
+  .max-sm\:block {
+    @media (width < 40rem) {
+      display: block;
+    }
+  }
   .max-sm\:hidden {
     @media (width < 40rem) {
       display: none;
@@ -797,6 +808,11 @@
   .max-sm\:h-1 {
     @media (width < 40rem) {
       height: calc(var(--spacing) * 1);
+    }
+  }
+  .max-sm\:h-8 {
+    @media (width < 40rem) {
+      height: calc(var(--spacing) * 8);
     }
   }
   .max-sm\:h-20 {
@@ -822,6 +838,11 @@
   .max-sm\:h-120 {
     @media (width < 40rem) {
       height: calc(var(--spacing) * 120);
+    }
+  }
+  .max-sm\:h-130 {
+    @media (width < 40rem) {
+      height: calc(var(--spacing) * 130);
     }
   }
   .max-sm\:h-150 {
@@ -857,6 +878,21 @@
   .max-sm\:h-1500 {
     @media (width < 40rem) {
       height: calc(var(--spacing) * 1500);
+    }
+  }
+  .max-sm\:w-20 {
+    @media (width < 40rem) {
+      width: calc(var(--spacing) * 20);
+    }
+  }
+  .max-sm\:w-25 {
+    @media (width < 40rem) {
+      width: calc(var(--spacing) * 25);
+    }
+  }
+  .max-sm\:w-30 {
+    @media (width < 40rem) {
+      width: calc(var(--spacing) * 30);
     }
   }
   .max-sm\:w-100 {
@@ -899,9 +935,19 @@
       padding-inline: calc(var(--spacing) * 10);
     }
   }
+  .max-sm\:pt-0 {
+    @media (width < 40rem) {
+      padding-top: calc(var(--spacing) * 0);
+    }
+  }
   .max-sm\:pt-1 {
     @media (width < 40rem) {
       padding-top: calc(var(--spacing) * 1);
+    }
+  }
+  .max-sm\:pt-3 {
+    @media (width < 40rem) {
+      padding-top: calc(var(--spacing) * 3);
     }
   }
   .max-sm\:pt-4 {
@@ -917,6 +963,11 @@
   .max-sm\:pt-10 {
     @media (width < 40rem) {
       padding-top: calc(var(--spacing) * 10);
+    }
+  }
+  .max-sm\:text-center {
+    @media (width < 40rem) {
+      text-align: center;
     }
   }
   .max-sm\:text-2xl {

@@ -217,7 +217,8 @@ li:hover {
     font-size: 50px;
     color: rgb(255, 255, 255);
 }
-.libre_1{
+
+.libre_1 {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
@@ -260,18 +261,40 @@ li:hover {
 
 @media screen and (max-width: 640px) {
     .custom1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    color: rgb(249, 249, 249);
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        color: rgb(249, 249, 249);
+    }
+
+    .custom2 {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 27px;
+        line-height: 32px;
+        color: rgb(255, 255, 255);
+    }
+
+    .custom3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+
+
 }
-  .custom2{
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 27px;
-    line-height: 32px;
-    color: rgb(255, 255, 255);
-  }
+
+.TheButton:hover {
+    cursor: pointer;
+}
+
+.TheButton:hover .DropDownMenu li{
+    display: flex;
 }
