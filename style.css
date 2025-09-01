@@ -148,6 +148,7 @@ li:hover {
     color: white;
     letter-spacing: 1px;
 }
+
 .poppins3 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -156,12 +157,13 @@ li:hover {
     line-height: 21px;
     color: rgb(155, 155, 155);
 }
+
 .poppins4 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 14px;
-    color: rgb(40,40,40);
+    color: rgb(40, 40, 40);
 }
 
 .poppinsnormalgray {
@@ -188,14 +190,16 @@ li:hover {
     font-size: 20px;
     color: rgb(249, 249, 249);
 }
-.poppins2{
+
+.poppins2 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     color: rgb(255, 255, 255);
 }
-.poppinsbtn{
+
+.poppinsbtn {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -212,13 +216,15 @@ li:hover {
     font-size: 50px;
     color: rgb(255, 255, 255);
 }
+
 .libre2 {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 37px;
-    color: rgb(40,40,40);
+    color: rgb(40, 40, 40);
 }
+
 .libre3 {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
@@ -226,13 +232,15 @@ li:hover {
     font-size: 55px;
     color: rgb(255, 255, 255);
 }
+
 .libre4 {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
-    font-size:26px;
+    font-size: 26px;
     color: rgb(255, 255, 255);
 }
+
 .libre5 {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
@@ -240,4 +248,5 @@ li:hover {
     font-size: 37px;
     color: rgb(255, 255, 255);
 }
+
 
