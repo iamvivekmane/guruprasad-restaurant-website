@@ -788,9 +788,19 @@
       flex-direction: column;
     }
   }
+  .max-sm\:gap-3 {
+    @media (width < 40rem) {
+      gap: calc(var(--spacing) * 3);
+    }
+  }
   .max-sm\:gap-4 {
     @media (width < 40rem) {
       gap: calc(var(--spacing) * 4);
+    }
+  }
+  .max-sm\:gap-10 {
+    @media (width < 40rem) {
+      gap: calc(var(--spacing) * 10);
     }
   }
   .max-sm\:px-5 {
