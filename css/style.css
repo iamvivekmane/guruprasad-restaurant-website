@@ -296,3 +296,13 @@ li:hover {
 .TheButton:hover .DropDownMenu li{
     display: flex;
 }
+
+.description span {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .description span {
+    text-decoration: none;
+  }
+}
