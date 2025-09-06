@@ -762,6 +762,12 @@
   .pl-22 {
     padding-left: calc(var(--spacing) * 22);
   }
+  .pl-35 {
+    padding-left: calc(var(--spacing) * 35);
+  }
+  .pl-40 {
+    padding-left: calc(var(--spacing) * 40);
+  }
   .text-center {
     text-align: center;
   }
@@ -830,6 +836,11 @@
   .max-lg\:hidden {
     @media (width < 64rem) {
       display: none;
+    }
+  }
+  .max-lg\:h-150 {
+    @media (width < 64rem) {
+      height: calc(var(--spacing) * 150);
     }
   }
   .max-lg\:h-220 {
@@ -905,6 +916,11 @@
   .max-lg\:px-0 {
     @media (width < 64rem) {
       padding-inline: calc(var(--spacing) * 0);
+    }
+  }
+  .max-lg\:px-2 {
+    @media (width < 64rem) {
+      padding-inline: calc(var(--spacing) * 2);
     }
   }
   .max-lg\:px-5 {
