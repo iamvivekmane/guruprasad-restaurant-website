@@ -290,19 +290,27 @@ li:hover {
 
 
 }
+
 .TheButton:hover {
     cursor: pointer;
 }
-.TheButton:hover .DropDownMenu li{
+
+.TheButton:hover .DropDownMenu li {
     display: flex;
 }
 
 .description span {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 400px) {
-  .description span {
-    text-decoration: none;
-  }
+    .description span {
+        text-decoration: none;
+    }
+}
+
+.special li {
+    /* background-color: black; */
+    border-bottom-width: 4px;
+    border-bottom: 4px solid transparent;
 }
