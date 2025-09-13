@@ -367,6 +367,18 @@
   .h-250 {
     height: calc(var(--spacing) * 250);
   }
+  .h-300 {
+    height: calc(var(--spacing) * 300);
+  }
+  .h-310 {
+    height: calc(var(--spacing) * 310);
+  }
+  .h-320 {
+    height: calc(var(--spacing) * 320);
+  }
+  .h-350 {
+    height: calc(var(--spacing) * 350);
+  }
   .h-380 {
     height: calc(var(--spacing) * 380);
   }
