@@ -11,6 +11,7 @@
     --color-red-400: oklch(70.4% 0.191 22.216);
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-red-600: oklch(57.7% 0.245 27.325);
+    --color-red-900: oklch(39.6% 0.141 25.723);
     --color-red-950: oklch(25.8% 0.092 26.042);
     --color-amber-50: oklch(98.7% 0.022 95.277);
     --color-amber-300: oklch(87.9% 0.169 91.605);
@@ -548,6 +549,9 @@
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
+  .bg-red-900 {
+    background-color: var(--color-red-900);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -650,14 +654,23 @@
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
   }
+  .pl-10 {
+    padding-left: calc(var(--spacing) * 10);
+  }
   .pl-20 {
     padding-left: calc(var(--spacing) * 20);
   }
   .pl-22 {
     padding-left: calc(var(--spacing) * 22);
   }
+  .pl-30 {
+    padding-left: calc(var(--spacing) * 30);
+  }
   .pl-40 {
     padding-left: calc(var(--spacing) * 40);
+  }
+  .pl-50 {
+    padding-left: calc(var(--spacing) * 50);
   }
   .text-center {
     text-align: center;
