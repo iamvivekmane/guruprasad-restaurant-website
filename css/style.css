@@ -8,6 +8,21 @@ body {
     background-position: center;
 }
 
+.aboutcontainer{
+    background-image: url(/images/about_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.menucontainer{
+    background-image: url(/images/menu_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contactcontainer{
+    background-image: url(/images/contact_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .welcome {
     color: #d3a971;
 }
