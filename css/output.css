@@ -7,22 +7,11 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-50: oklch(97.1% 0.013 17.38);
-    --color-red-400: oklch(70.4% 0.191 22.216);
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-red-600: oklch(57.7% 0.245 27.325);
     --color-red-900: oklch(39.6% 0.141 25.723);
-    --color-red-950: oklch(25.8% 0.092 26.042);
     --color-amber-50: oklch(98.7% 0.022 95.277);
-    --color-amber-300: oklch(87.9% 0.169 91.605);
-    --color-amber-800: oklch(47.3% 0.137 46.201);
-    --color-amber-900: oklch(41.4% 0.112 45.904);
-    --color-blue-50: oklch(97% 0.014 254.604);
-    --color-violet-50: oklch(96.9% 0.016 293.756);
-    --color-violet-400: oklch(70.2% 0.183 293.541);
-    --color-violet-500: oklch(60.6% 0.25 292.717);
     --color-purple-500: oklch(62.7% 0.265 303.9);
-    --color-pink-500: oklch(65.6% 0.241 354.308);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-neutral-100: oklch(97% 0 0);
@@ -323,9 +312,6 @@
   .h-25 {
     height: calc(var(--spacing) * 25);
   }
-  .h-30 {
-    height: calc(var(--spacing) * 30);
-  }
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
@@ -479,9 +465,6 @@
   .items-center {
     align-items: center;
   }
-  .justify-around {
-    justify-content: space-around;
-  }
   .justify-between {
     justify-content: space-between;
   }
@@ -549,8 +532,8 @@
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
-  .bg-red-900 {
-    background-color: var(--color-red-900);
+  .bg-red-600 {
+    background-color: var(--color-red-600);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -615,9 +598,6 @@
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
-  .pt-15 {
-    padding-top: calc(var(--spacing) * 15);
-  }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
   }
@@ -627,23 +607,8 @@
   .pt-40 {
     padding-top: calc(var(--spacing) * 40);
   }
-  .pt-50 {
-    padding-top: calc(var(--spacing) * 50);
-  }
-  .pt-60 {
-    padding-top: calc(var(--spacing) * 60);
-  }
-  .pt-70 {
-    padding-top: calc(var(--spacing) * 70);
-  }
-  .pt-80 {
-    padding-top: calc(var(--spacing) * 80);
-  }
   .pt-90 {
     padding-top: calc(var(--spacing) * 90);
-  }
-  .pt-980 {
-    padding-top: calc(var(--spacing) * 980);
   }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
@@ -654,17 +619,8 @@
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
   }
-  .pl-10 {
-    padding-left: calc(var(--spacing) * 10);
-  }
-  .pl-20 {
-    padding-left: calc(var(--spacing) * 20);
-  }
   .pl-22 {
     padding-left: calc(var(--spacing) * 22);
-  }
-  .pl-30 {
-    padding-left: calc(var(--spacing) * 30);
   }
   .pl-40 {
     padding-left: calc(var(--spacing) * 40);
@@ -726,11 +682,6 @@
   }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
-  }
-  .transition {
-    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
-    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-    transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
   .max-lg\:mx-10 {
     @media (width < 64rem) {
@@ -902,19 +853,24 @@
       height: calc(var(--spacing) * 300);
     }
   }
-  .max-sm\:h-320 {
+  .max-sm\:h-360 {
     @media (width < 40rem) {
-      height: calc(var(--spacing) * 320);
+      height: calc(var(--spacing) * 360);
     }
   }
-  .max-sm\:h-340 {
+  .max-sm\:h-400 {
     @media (width < 40rem) {
-      height: calc(var(--spacing) * 340);
+      height: calc(var(--spacing) * 400);
     }
   }
-  .max-sm\:h-350 {
+  .max-sm\:h-405 {
     @media (width < 40rem) {
-      height: calc(var(--spacing) * 350);
+      height: calc(var(--spacing) * 405);
+    }
+  }
+  .max-sm\:h-410 {
+    @media (width < 40rem) {
+      height: calc(var(--spacing) * 410);
     }
   }
   .max-sm\:w-25 {
