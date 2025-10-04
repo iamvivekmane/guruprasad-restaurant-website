@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
-        <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 </head>
 
 <body class="bg-black">
@@ -25,7 +25,7 @@
         <div class="main1 w-full  flex justify-center content-center  max-lg:hidden">
             <div class="container h-25 flex">
                 <div class="image h-full pt-5 pl-22 w-1/2  ">
-                  <a href="index.html">  <img class="w-fit h-18" src="images/logo.png" alt=""></a>
+                    <a href="index.html"> <img class="w-fit h-18" src="images/logo.png" alt=""></a>
                 </div>
                 <div class="nav h-full w-1/3  ml-28">
                     <ul class="flex flex-row text-white justify-between pl-2 h-full poppinsbold">
@@ -41,38 +41,41 @@
 
 
 
-         <div class="hidden main2 max-lg:flex w-full h-20 bg-white">
+        <div class="hidden main2 max-lg:flex w-full h-20 bg-white">
             <div class="image w-1/2 flex items-center">
                 <img class="w-fit h-15 ml-2 invert" src="images/logo.png" alt="">
             </div>
             <div class="menubutton w-1/2 bg-white">
                 <div class="MenuButton mbtn h-full flex justify-end">
-                    <button class="TheButton h-full mr-2 block">
+                    <button id="hamburger" class="TheButton h-full mr-2 block">
                         <img class="h-7" src="images/menu.svg" alt="">
                     </button>
                 </div>
             </div>
-            <div class="DropDownMenu bg-black text-white relative inline-block">
-                <ul class="text-center flex-col gap-2 hidden">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Menu</li>
-                    <li>Gallery</li>
-                    <li>Contact</li>
-                </ul>
-
-                <!-- updated -->
-                 <!-- <div class="hidden DropDownMenu bg-lack text-white bg-black w-1/2 h-40" id="toggling">
-            <ul class="flex flex-col gap-2 pl-10 pt-5">
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Contact</li>
-            </ul>
-        
-</div> -->
-            </div>
         </div>
+
+            
+        <div class="hidden DropDownMenu bg-lack text-white bg-black h-40 absolute w-full"  id="menu">
+            <ul class="flex flex-col gap-3 py-5 pl-2 poppinsbold">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="menu.html">
+                    <li>Menu</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+
+
+
+   
+
 
 
 
@@ -186,7 +189,8 @@
                         <span>
                             “Best family restaurant in islampur. Good food & service provided. We organized our family
                             get together in this hotel we enjoyed a lot.”
-                        </span></div>
+                        </span>
+                    </div>
                     <div class="image  w-full h-20 flex items-center justify-center"><img class="w-15 items-center"
                             src="images/user1.png" alt=""></div>
                     <div class="name w-full text-center poppins4">Prashant Pawar</div>
@@ -205,7 +209,8 @@
                     <div class="message bg-white w-full h-40 flex items-center justify-center text-center poppins3">
                         <span>
                             “Delicious food and also nicely service.”
-                        </span></div>
+                        </span>
+                    </div>
                     <div class="image  w-full h-20 flex items-center justify-center"><img class="w-15 items-center"
                             src="images/user2.png" alt=""></div>
                     <div class="name w-full text-center poppins4">Rahul Mane</div>
@@ -223,7 +228,8 @@
                     <div class="message bg-white w-full h-40 flex items-center text-center justify-center poppins3">
                         <span>
                             “Tasty food, variety of dishes and really good service.”
-                        </span></div>
+                        </span>
+                    </div>
                     <div class="image  w-full h-20 flex items-center justify-center"><img class="w-15 items-center"
                             src="images/user3.png" alt=""></div>
                     <div class="name w-full text-center poppins4">Sudarshan Pawar</div>
@@ -279,8 +285,8 @@
         <div class="third w-full h-50 flex px-60 max-lg:px-10 max-sm:flex-col">
             <div class="first w-1/2  flex justify-center items-center pt-0 h-fit max-sm:w-full"><img
                     src="images/zomato.png" alt=""></div>
-            <div class="second w-1/2  flex justify-center items-center h-fit max-sm:w-full"><img src="images/home_delivery.png"
-                    alt=""></div>
+            <div class="second w-1/2  flex justify-center items-center h-fit max-sm:w-full"><img
+                    src="images/home_delivery.png" alt=""></div>
         </div>
     </div>
 
@@ -323,7 +329,7 @@
             <div class="second flex flex-col items-center gap-3 pt-10 text-gray-500">
                 <span>
                     Mon: 7:00 PM – 11:00 PM</span>
-                 <span>
+                <span>
                     Tue: 7:00 PM – 11:00 PM</span>
                 <span>
                     Wed: 7:00 PM – 11:00 PM</span>

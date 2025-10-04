@@ -1,30 +1,16 @@
-console.log('welcome');
-let hbutton = document.getElementById('hamburger');
-hbutton.addEventListener('click', function () {
-    alert('Button clicked!');
-    
-});
-
-
-
- let button = document.getElementById('hamburger');
-    let element = document.getElementById('toggling');
-    let menu = document.getElementById('menu');
-    button.addEventListener('click', function () {
-        // element.classList.toggle('block');
-        if(element.style.display == 'none'){
-            element.style.display = 'block';
-        }
-        else{
-            element.style.display= 'none';
-        }
-            
+ const hamburgerButton = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+    hamburgerButton.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
     });
+    document.addEventListener('click', (event) => {
+        const isMenuVisible = !menu.classList.contains('hidden');
 
-    window.addEventListener('click',function(event)
-{
-    if(!menu.classList.contains('hidden') && !meny.contains(event.target)){
-        // meny.classList.add('hidden');
-        element.style.display= 'none';
-    }
-})
+        const isClickOnButton = hamburgerButton.contains(event.target);
+
+        const isClickInMenu = menu.contains(event.target);
+
+        if (isMenuVisible && !isClickOnButton && !isClickInMenu) {
+            menu.classList.add('hidden');
+        }
+    });

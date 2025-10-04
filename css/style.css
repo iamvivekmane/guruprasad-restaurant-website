@@ -8,21 +8,24 @@ body {
     background-position: center;
 }
 
-.aboutcontainer{
+.aboutcontainer {
     background-image: url(/images/about_bg.jpg);
     background-size: cover;
     background-position: center;
 }
-.menucontainer{
+
+.menucontainer {
     background-image: url(/images/menu_bg.jpg);
     background-size: cover;
     background-position: center;
 }
-.contactcontainer{
+
+.contactcontainer {
     background-image: url(/images/contact_bg.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .welcome {
     color: #d3a971;
 }
@@ -63,6 +66,7 @@ li:hover {
     border-bottom-width: 4px;
     transition: 150ms ease-in;
 }
+
 
 .main {
     border-bottom-width: 1px;
@@ -332,7 +336,7 @@ li:hover {
 
 
 
-.borderbottom{
+.borderbottom {
     border-bottom: 1px;
     border-color: black;
 }
