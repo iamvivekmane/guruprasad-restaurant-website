@@ -29,7 +29,7 @@ This project was built using the following technologies:
 
 ## 🚀 Live Demo
 
-Check out the live site here: **https://hotelguruprasad.vercel.app/** 
+Check the live site here: **https://hotelguruprasad.vercel.app/** 
 
 ---
 
