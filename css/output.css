@@ -7,7 +7,6 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-300: oklch(80.8% 0.114 19.571);
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-amber-50: oklch(98.7% 0.022 95.277);
     --color-purple-500: oklch(62.7% 0.265 303.9);
@@ -16,7 +15,6 @@
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
-    --container-2xs: 18rem;
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
@@ -276,9 +274,6 @@
   .table {
     display: table;
   }
-  .h-1 {
-    height: calc(var(--spacing) * 1);
-  }
   .h-1\/3 {
     height: calc(1/3 * 100%);
   }
@@ -345,35 +340,8 @@
   .h-210 {
     height: calc(var(--spacing) * 210);
   }
-  .h-300 {
-    height: calc(var(--spacing) * 300);
-  }
-  .h-2000 {
-    height: calc(var(--spacing) * 2000);
-  }
-  .h-2100 {
-    height: calc(var(--spacing) * 2100);
-  }
-  .h-2200 {
-    height: calc(var(--spacing) * 2200);
-  }
   .h-2300 {
     height: calc(var(--spacing) * 2300);
-  }
-  .h-2500 {
-    height: calc(var(--spacing) * 2500);
-  }
-  .h-2600 {
-    height: calc(var(--spacing) * 2600);
-  }
-  .h-2900 {
-    height: calc(var(--spacing) * 2900);
-  }
-  .h-3000 {
-    height: calc(var(--spacing) * 3000);
-  }
-  .h-23500 {
-    height: calc(var(--spacing) * 23500);
   }
   .h-\[70vh\] {
     height: 70vh;
@@ -386,9 +354,6 @@
   }
   .h-full {
     height: 100%;
-  }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -456,23 +421,14 @@
   .w-full {
     width: 100%;
   }
-  .max-w-2xs {
-    max-width: var(--container-2xs);
-  }
   .max-w-full {
     max-width: 100%;
-  }
-  .border-collapse {
-    border-collapse: collapse;
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .resize {
-    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -549,9 +505,6 @@
   }
   .bg-purple-500 {
     background-color: var(--color-purple-500);
-  }
-  .bg-red-300 {
-    background-color: var(--color-red-300);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -666,9 +619,6 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
-  .text-wrap {
-    text-wrap: wrap;
-  }
   .text-black {
     color: var(--color-black);
   }
@@ -681,18 +631,8 @@
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
   .invert {
     --tw-invert: invert(100%);
-    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
-  }
-  .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
   .max-2xl\:h-3000 {
@@ -703,36 +643,6 @@
   .max-2xl\:bg-black {
     @media (width < 96rem) {
       background-color: var(--color-black);
-    }
-  }
-  .max-xl\:h-220 {
-    @media (width < 80rem) {
-      height: calc(var(--spacing) * 220);
-    }
-  }
-  .max-xl\:h-2020 {
-    @media (width < 80rem) {
-      height: calc(var(--spacing) * 2020);
-    }
-  }
-  .max-xl\:h-2200 {
-    @media (width < 80rem) {
-      height: calc(var(--spacing) * 2200);
-    }
-  }
-  .max-xl\:h-2500 {
-    @media (width < 80rem) {
-      height: calc(var(--spacing) * 2500);
-    }
-  }
-  .max-xl\:h-2550 {
-    @media (width < 80rem) {
-      height: calc(var(--spacing) * 2550);
-    }
-  }
-  .max-xl\:h-2600 {
-    @media (width < 80rem) {
-      height: calc(var(--spacing) * 2600);
     }
   }
   .max-xl\:h-2900 {
@@ -1061,11 +971,6 @@
   inherits: false;
   initial-value: solid;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-blur {
   syntax: "*";
   inherits: false;
@@ -1128,7 +1033,6 @@
       --tw-skew-x: initial;
       --tw-skew-y: initial;
       --tw-border-style: solid;
-      --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;
